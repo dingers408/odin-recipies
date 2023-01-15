@@ -1,0 +1,63 @@
+body {
+  background-color: #e4dac2;
+  overflow: auto;
+}
+
+.indextitle {
+  margin: 2rem auto;
+  color: rgb(0, 0, 0);
+  font-size: 5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.burger-container {
+  margin: auto;
+  text-align: center;
+}
+
+.food:hover, .padthai:hover, .samosa:hover {
+  box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+}
+
+.padthai, .food, .samosa {
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 20px;
+  text-align: center;
+  max-width: 545px;
+}
+
+
+.padthai-container, .samosa-container {
+  margin: auto;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.underpic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.recipe {
+  background-color: #e4dac2;
+  width: 5rem;
+  height: 3rem;
+  border-radius: 8px;
+  margin-left: 1rem;
+  border-style: solid;
+  border-color: black;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
